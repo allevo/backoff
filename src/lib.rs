@@ -133,7 +133,7 @@
 //!
 //! fn main() {
 //!     match fetch_url("https://www.rust-lang.org") {
-//!         Ok(_) => println!("Sucessfully fetched"),
+//!         Ok(_) => println!("Successfully fetched"),
 //!         Err(err) => panic!("Failed to fetch: {}", err),
 //!     }
 //! }
@@ -147,7 +147,7 @@
 //!     Finished dev [unoptimized + debuginfo] target(s) in 1.54 secs
 //!      Running `target/debug/examples/retry`
 //! Fetching https://www.rust-lang.org
-//! Sucessfully fetched
+//! Successfully fetched
 //!
 //! real    0m2.003s
 //! user    0m1.536s
